@@ -6,83 +6,55 @@ header{
 }
 
 header img{
-    display: inline-block;
+    display: block;
     position: relative;
     width: 200px;
     height: 70px;
     top: 40px;
     overflow: hidden;
-    margin-left: 10px;
+    margin-left: 100px;
     margin-top: 1px;
     
 }
 
 body{
-    height: 1500px;
+    height: 1400px;
 }
 
 main{
     height: 100%;
 }
 
-#li2{
-    position: absolute;
-    top: 60px;
-    padding: 5px;
-    right: 700px;
-    display: inline-block;
-    border: 3px solid black;
-    color:white;
-    font-size: x-large;
-    font-weight: bolder;
-    font-family:'Times New Roman', Times, serif;
+nav {
+    margin-left: 320px;
+    
 }
 
-#li3{
-    position: absolute;
-    top: 60px;
-    padding: 5px;
-    right: 550px;
+ul li{
+    top: 40px;
+    padding:10px;
     display: inline-block;
-    border: 3px solid black;
     color:white;
-    font-size: x-large;
-    font-weight: bolder;
-    font-family:'Times New Roman', Times, serif;
-}
-
-#li4{
-    position: absolute;
-    top: 60px;
-    padding: 5px;
-    right: 400px;
-    display: inline-block;
-    border: 3px solid black;
-    color:white;
-    font-size: x-large;
-    font-weight: bolder;
-    font-family:'Times New Roman', Times, serif;
-}
-
-#li5{
-    position: absolute;
-    top: 60px;
-    padding: 5px;
-    right: 250px;
-    display: inline-block;
-    border: 3px solid black;
-    color:white;
-    font-size: x-large;
+    font-size: larger;
     font-weight: bolder;
     font-family:'Times New Roman', Times, serif;
 }
 
 main p{
-    display: inline;
+    display: block;
     float: right;
-    height: 50px;
-    margin-top: 500px;
-    margin-right: 240px;
+    overflow: scroll;
+    margin-top: 100px;
+    margin-right: 275px;
+}
+
+main button{
+    position: absolute;
+    background-color: black;
+    color: white;
+    margin-top: 220px;
+    left: 600px;
+    float: right;
 }
 
 footer{
@@ -92,26 +64,18 @@ footer{
     color: white;
 }
 
-#image-big{
+main img{
     position: relative;
     top: 15px;
-    margin-left:175px; 
-    
-}
+    left: 100px
 
-div{
-    position: absolute;
-    margin-top: 30px;
-    margin-left:156px; 
-    padding: 5px;
 }
 
 div img{
-    padding-left: 18px;
+    margin-left: 7px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
 }
 
-#image-mid{
-    margin-top: 420px;
-    margin-left: 175px;
-    padding: 5px;
-}
+
